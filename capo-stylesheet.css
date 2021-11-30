@@ -42,17 +42,21 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: auto 0;
+    margin: auto 4px;
     text-align: center;
-    padding: 20px 0;
-    
+    padding: 15px 0;
+    width: 30%;
+    border-radius: 5%;
+    transition: transform 250ms;
 } 
 
 nav li:hover {
     text-decoration: underline;
-    background-color: rgb(201, 166, 166);
+    background-color: rgba(201, 166, 166, 0.7);
+    transform: translateY(-12px);
     
 }
+
 
 .twitch {
     height: 2px;
@@ -74,7 +78,7 @@ body {
     position: relative;
     top: 200px;
     width: 800px;
-    margin: auto 30%;
+    margin: auto 25%;
 }
 
 #here:hover {
@@ -88,14 +92,38 @@ body {
     position: relative;
     top: 200px;
     width: 800px;
-    
-    margin: auto 30%;
+    margin: auto 25%;
 }
 
-nav li {
-    display: inline-block;
-    width: 100px;
-    border: 1px 
-    
-} 
+#video {
+    text-align: center;
+    background-color: rgba(117, 55, 117, 0.3);
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    width: 800px;
+    margin: auto 25%;
+}
+
+#tuition {
+    text-align: center;
+    background-color: rgba(117, 55, 117, 0.3);
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    width: 800px;
+    margin: auto 25%;
+}
+
+#editions {
+    text-align: center;
+    background-color: rgba(117, 55, 117, 0.3);
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    width: 800px;
+    margin: auto 25%;
+}
+
+
 
