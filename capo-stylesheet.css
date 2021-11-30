@@ -64,7 +64,19 @@ body {
 
 }
 
+#home {
+    text-align: center;
+    background-color: rgba(117, 55, 117, 0.3);
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    width: 800px;
+    margin: auto 30%;
+}
 
+#here:hover {
+    text-decoration: underline;
+}
 
 #bio {
     text-align: center;
