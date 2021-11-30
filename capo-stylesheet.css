@@ -1,12 +1,13 @@
 header {
     background-color: rgb(255, 255, 255);    
     position: fixed;    
+    height: 10%;
     width: 100%;
     margin: auto 0;
     left: 0;
     top: 0;
     z-index: 1;
-    box-shadow: rgb(0, 0, 0);
+    box-shadow: #000000;
     border-bottom: 5px, solid, black;
 }
 
@@ -31,8 +32,8 @@ nav ul {
     position: absolute;
     display: flex;
     overflow: hidden;
-    top: 15px;
-    right: 10%;
+    top: 0px;
+    right: 2%;
 }
 
 .right {
@@ -43,12 +44,14 @@ nav li {
     display: inline-block;
     margin: auto 0;
     text-align: center;
+    padding: 20px 0;
     
 } 
 
 nav li:hover {
     text-decoration: underline;
-    background-color: darkgrey;
+    background-color: rgb(201, 166, 166);
+    
 }
 
 .twitch {
