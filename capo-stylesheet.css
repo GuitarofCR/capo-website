@@ -1,0 +1,86 @@
+header {
+    background-color: rgb(255, 255, 255);    
+    position: fixed;    
+    width: 100%;
+    margin: auto 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    box-shadow: rgb(0, 0, 0);
+    border-bottom: 5px, solid, black;
+}
+
+header h1 {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+
+}
+
+header h3 {
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    
+}
+
+nav ul {
+    width: auto;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    top: 15px;
+    right: 10%;
+}
+
+.right {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin: auto 0;
+    text-align: center;
+    
+} 
+
+nav li:hover {
+    text-decoration: underline;
+    background-color: darkgrey;
+}
+
+.twitch {
+    height: 2px;
+    width: 2px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://cdn.discordapp.com/attachments/780043012939710464/915229837789122560/background.png);
+
+}
+
+
+
+#bio {
+    text-align: center;
+    background-color: rgba(117, 55, 117, 0.3);
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    width: 800px;
+    
+    margin: auto 30%;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    border: 1px 
+    
+} 
+
